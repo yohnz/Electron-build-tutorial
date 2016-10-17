@@ -1,0 +1,15 @@
+{
+  "name": "zhihu",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "package": "electron-packager ./ zhihu --win --out zhihu --arch=x64 --version 1.3.4 --overwrite --ignore=node_modules --version-string.CompanyName=zhihu --version-string.ProductName=zhihu"
+  },
+  "dependencies": {
+    "jquery": "^3.1.1"
+  },
+  "devDependencies": {
+    "electron-packager": "^8.1.0",
+    "grunt-electron-installer": "^2.1.0"
+  }
+}
